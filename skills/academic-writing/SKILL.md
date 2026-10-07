@@ -48,7 +48,7 @@ Keep qualifiers the reader needs to interpret a result, such as a counting rule 
 - Reference each figure or table once, at its first discussion.
 - Reference another section or appendix only when the reader must jump there to follow the current text. Drop "see … for details" where possible.
 - Refer by content when possible: "the ablation study" reads better than "Section 5.3".
-- Do not list section numbers one by one in roadmap sentences.
+- Roadmap sentences (e.g., at the end of the introduction) may reference each section by number.
 
 ## 6. Short captions
 
