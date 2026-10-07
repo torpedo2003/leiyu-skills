@@ -34,14 +34,14 @@ Keep qualifiers the reader needs to interpret a result, such as a counting rule 
 - Use few semicolons and dashes (including `---` and `--` in LaTeX). Split the sentence, or use a comma or parentheses.
 - Avoid "rather than", "instead of", and contrast templates such as "A is X, not Y". State directly what A is. Mention Y only when the contrast itself is the point, and then in its own plain sentence.
 
-## 4. Experiment analysis: trends over numbers
+## 4. Experiment analysis: findings, with the key numbers
 
-- Figures and tables give the numbers. The text explains what they show.
+- Figures and tables give the full numbers. The text explains what they show.
 - Open each paragraph with its conclusion, then give the comparison or reason that supports it.
-- Use at most one or two key numbers per paragraph, and only when the number itself is the point.
-- Otherwise use relative wording: "about twice", "drops sharply", "increases with X", "varies widely across models".
+- State the important, informative numbers directly and exactly ("keeps 11% of its score", "1.7 to 4.0 times as many turns"). Do not avoid key metrics, and do not force them into vague approximations such as "about two thirds" or "about half".
+- Use relative wording ("drops sharply", "increases with X", "varies widely across models") for trends, and for numbers that would only repeat a table cell.
 - Never restate a table cell by cell or turn a figure into prose.
-- After writing, check every number. If it only repeats the table, delete it or turn it into a trend.
+- After writing, check every number. Keep it if it carries a finding. If it only repeats the table, delete it or turn it into a trend.
 
 ## 5. Cross-references the reader needs
 
