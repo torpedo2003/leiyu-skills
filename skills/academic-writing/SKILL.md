@@ -34,14 +34,37 @@ Keep qualifiers the reader needs to interpret a result, such as a counting rule 
 - Use few semicolons and dashes (including `---` and `--` in LaTeX). Split the sentence, or use a comma or parentheses.
 - Avoid "rather than", "instead of", and contrast templates such as "A is X, not Y". State directly what A is. Mention Y only when the contrast itself is the point, and then in its own plain sentence.
 
-## 4. Experiment analysis: findings, with the key numbers
+## 4. Experiment analysis: finding, cause, implication
 
-- Figures and tables give the full numbers. The text explains what they show.
-- Open each paragraph with its conclusion, then give the comparison or reason that supports it.
-- State the important, informative numbers directly and exactly ("keeps 11% of its score", "1.7 to 4.0 times as many turns"). Do not avoid key metrics, and do not force them into vague approximations such as "about two thirds" or "about half".
-- Use relative wording ("drops sharply", "increases with X", "varies widely across models") for trends, and for numbers that would only repeat a table cell.
-- Never restate a table cell by cell or turn a figure into prose.
-- After writing, check every number. Keep it if it carries a finding. If it only repeats the table, delete it or turn it into a trend.
+**Paragraph structure**
+
+- Build each analysis paragraph as finding, then cause, then implication.
+  - Finding: open with the conclusion and the one or two numbers that carry it.
+  - Cause: tie the finding to a concrete mechanism, using task-level evidence such as a case, counts of gains and losses, or a paired comparison. Claim no more than the evidence supports.
+  - Implication: end with what the finding means for future agents or methods. Do not end on a raw number, a case detail, or a cross-reference.
+- Introduce key figures and tables as sentence subjects ("Figure 9 breaks down the failures by model").
+
+**Numbers**
+
+- State key numbers exactly, preferably as comparisons ("55% of GUI failures but only 36% of CLI failures", "13 of 28 versus 0 of 28"). Do not force them into vague approximations such as "about half".
+- Leave the rest to figures and tables. Never restate a table cell by cell or turn a figure into prose.
+- Normalize before comparing groups of different sizes. Compare shares, not raw counts, or a large group looks worst only because it is large.
+
+**Sentences to cut or rewrite**
+
+- Statements every reader already knows ("Each ablation changes one setting and keeps the others fixed").
+- Sentences that restate a definition as a finding ("Agents that reach the turn limit cannot finish within the allowed turns").
+- Vague labels in place of facts ("The gain is a net effect"). Name the actual counts ("five previously solved tasks now fail").
+- New terms introduced only for variety ("visual fidelity", "metadata", "window"). Reuse the defined term.
+
+**Comparisons and setup**
+
+- Keep the grammar parallel when comparing models ("improves A, barely changes B, and lowers C").
+- Describe experimental conditions one per sentence with the same pattern: name, verb, and what changes. State the shared purpose once, in the first sentence.
+
+**Emphasis across the paper**
+
+- Repeat the core claims in the abstract, the introduction, the results, and the conclusion. Secondary findings appear once.
 
 ## 5. Cross-references the reader needs
 
